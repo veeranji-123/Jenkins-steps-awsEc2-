@@ -26,7 +26,7 @@
 **Purpose:**
  Preparing a cloud-based virtual server environment for Jenkins setup.
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 172142.png)
+![](<Screenshot 2025-10-27 172142.png>)
 
 ---
 
@@ -52,7 +52,7 @@
 **Purpose:**
  The `.pem` key allows secure SSH access; storage defines root disk capacity.
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 172241.png)
+![](<Screenshot 2025-10-27 172241.png>)
 
 ---
 
@@ -80,7 +80,7 @@ Added inbound rules:
 **Purpose:**
  To allow terminal login and browser access to Jenkins after installation.
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 172320.png)
+![](<Screenshot 2025-10-27 172320.png>)
 
 ---
 
@@ -108,7 +108,7 @@ Added inbound rules:
 **Purpose:**
  Confirms that your virtual machine is now created and active in AWS.
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 172356.png)
+![](<Screenshot 2025-10-27 172356.png>)
 
 ----
 
@@ -138,13 +138,13 @@ Added inbound rules:
 **Purpose:**
  Secure connection to the cloud instance using the private key.
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 172415.png)
+![](<Screenshot 2025-10-27 172415.png>)
 
 ----
 
 
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 172440.png)
+![](<Screenshot 2025-10-27 172440.png>)
 
 ----
 
@@ -181,7 +181,7 @@ Added inbound rules:
 **Purpose:**
  Gives a unique server identity and ensures environment reset after change.
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 172623.png)
+![](<Screenshot 2025-10-27 172623.png>)
 
 ---
 
@@ -218,7 +218,7 @@ Added inbound rules:
 **Purpose:**
  Installs the Java runtime — required dependency for Jenkins.
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 172732.png)
+![](<Screenshot 2025-10-27 172732.png>)
 
 ### **– Adding Jenkins Repository & Installing Jenkins**
 
@@ -252,7 +252,7 @@ sudo apt install jenkins
 
 
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 172831.png)
+![](<Screenshot 2025-10-27 172831.png>)
 
 ----
 
@@ -284,7 +284,7 @@ sudo systemctl status jenkins
                 +--> Port 8080 Open
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 173528.png)
+![](<Screenshot 2025-10-27 173528.png>)
 
 ----
 
@@ -305,7 +305,7 @@ sudo systemctl status jenkins
                                            +--> Jenkins Web UI
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 173603.png)
+![](<Screenshot 2025-10-27 173603.png>)
 
 ----
 
@@ -327,7 +327,7 @@ sudo systemctl status jenkins
                                [/var/lib/jenkins/secrets/]
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 173717.png)
+![](<Screenshot 2025-10-27 173717.png>)
 
 ----
 
@@ -355,7 +355,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
                       +--> initialAdminPassword (Used to unlock Jenkins)
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 173755.png)
+![](<Screenshot 2025-10-27 173755.png>)
 
 ---
 
@@ -379,7 +379,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
        +--> Option 2: Select Plugins Manually
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 173819.png)
+![](<Screenshot 2025-10-27 173819.png>)
 
 ----
 
@@ -411,7 +411,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
                  └── Email Extension
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 173832.png)
+![](<Screenshot 2025-10-27 173832.png>)
 
 -----
 
@@ -437,7 +437,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
         +--> Configure Global Settings
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 173959.png)
+![](<Screenshot 2025-10-27 173959.png>)
 
 ----
 
@@ -458,7 +458,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
      └── Configure a Cloud → Add cloud-based build environments
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 174016.png)
+![](<Screenshot 2025-10-27 174016.png>)
 
 -----
 
@@ -482,7 +482,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
       └── Credentials → Manage login keys & secrets
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 174105.png)
+![](<Screenshot 2025-10-27 174105.png>)
 
 ---
 
@@ -500,7 +500,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
            └── admin (Administrator Role)
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 174234.png)
+![](<Screenshot 2025-10-27 174234.png>)
 
 ---
 
@@ -522,7 +522,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
           └── veera (Custom user)
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 174405.png)
+![](<Screenshot 2025-10-27 174405.png>)
 
 ----
 
@@ -541,7 +541,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
            └── Freestyle Project → my-first-job
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 174605.png)
+![](<Screenshot 2025-10-27 174605.png>)
 
 ----
 
@@ -561,7 +561,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
            └── Credentials
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 174734.png)
+![](<Screenshot 2025-10-27 174734.png>)
 
 ----
 
@@ -579,4 +579,4 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
           └── my-first-job → Status: Ready (No builds yet)
 ```
 
-![](C:\Users\veera\OneDrive\Pictures\Screenshots\jenkins-lab\Screenshot 2025-10-27 174808.png)
+![](<Screenshot 2025-10-27 174808.png>)
